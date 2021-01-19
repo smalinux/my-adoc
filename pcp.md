@@ -1,9 +1,14 @@
 # Hi title
 
-##
+## Focus on
 ```
 $ man PCPInfo
+$ man htop
+$ man ncurses
 ```
+
+## Keywords mentioned (Google it)
+
 ## The basic PCP commands are:
 pminfo
 pmie
