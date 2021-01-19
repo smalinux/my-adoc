@@ -61,6 +61,10 @@ $ back to RedHat ch 6
 
 ```
 
+```
+pmafm >> pmlogger 
+```
+
 ## Get the exe file of any command
 ```
 $ find ~/pcp-repo/ -name "pminfo"
