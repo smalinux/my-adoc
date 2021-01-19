@@ -37,11 +37,27 @@ Substep:
 
 ## Quotes
 ```
+You can add performance metrics using Python, Perl, C++, and C interfaces.
+- RedHat Ch 6
 
+The Performance Metric Collector Daemon (pmcd) collects performance
+data from the installed Performance Metric Domain Agents (pmda).
+PMDAs can be individually loaded or unloaded on the system and
+are controlled by the PMCD on the same host.
 
 ```
 
 # Ref
+Additional resources
+```
+The /usr/share/doc/pcp-doc/ directory.
+Section 6.9, “Tools distributed with PCP”.
+The Index of Performance Co-Pilot (PCP) articles, solutions, tutorials and white papers on Red Hat Customer Portal. https://access.redhat.com/articles/1145953
+The Side-by-side comparison of PCP tools with legacy tools Red Hat Knowledgebase article. https://access.redhat.com/articles/2372811
+The upstream PCP documentation. https://pcp.io/documentation.html
+```
+
+============  
 https://pcp.readthedocs.io/en/latest/UAG/InstallingAndConfiguringPcp.html  
 [RedHat chapter 6](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/monitoring_and_managing_system_status_and_performance/monitoring-performance-with-performance-co-pilot_monitoring-and-managing-system-status-and-performance)  
 https://pcp.io/docs/  
