@@ -41,6 +41,7 @@ $ ./src/pcp/atop/pcp-atop
 .. etc: https://pcp.io/docs/guide.html
 ```
 ## [From redhat chaper 6](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/monitoring_and_managing_system_status_and_performance/monitoring-performance-with-performance-co-pilot_monitoring-and-managing-system-status-and-performance#tools-distributed-with-pcp_monitoring-performance-with-performance-co-pilot)
+Google: MONITORING PERFORMANCE WITH PERFORMANCE CO-PILOT  
 ```
 ## Start spy on & save the record
 $ 6.3. Deploying a minimal PCP setup (from redhat chaper 6)
@@ -48,6 +49,15 @@ $ pmlogconf & pmlogger
 
 ## tools to view archived data (from redhat chaper 6)
 $ pmdumptext, pmrep, or pmlogsummary
+
+## Display a short description of the xfs.write_bytes metric:
+$ pminfo --oneline xfs.write_bytes
+## Display a long description of the xfs.read_bytes metric:
+$ pminfo --helptext xfs.read_bytes
+## Obtain the current performance value of the xfs.read_bytes metric:
+$ pminfo --fetch xfs.read_bytes
+## 6.7.3. Resetting XFS performance metrics with pmstore
+$ back to RedHat ch 6
 
 ```
 
@@ -67,6 +77,12 @@ $ pmchart -t 2sec -a iostat.pcp
 
 
 
+## Keywards -Google
+```
+Postfix - 
+```
+
+
 ```
 Performance Metrics Domain Agents (PMDAs)
 a Performance Metrics Name Space (PMNS)
@@ -76,5 +92,7 @@ a Performance Metrics Name Space (PMNS)
 ====================  
 https://www.redhat.com/en/blog/getting-started-using-performance-co-pilot-and-vector-browser-based-metric-visualizations
 
+### Links:
+RedHat ch 6 [Done]
 
 
