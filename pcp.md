@@ -39,6 +39,15 @@ $ ./src/pcp/atop/pcp-atop
 ..
 ..
 .. etc: https://pcp.io/docs/guide.html
+```
+## [From redhat chaper 6](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/monitoring_and_managing_system_status_and_performance/monitoring-performance-with-performance-co-pilot_monitoring-and-managing-system-status-and-performance#tools-distributed-with-pcp_monitoring-performance-with-performance-co-pilot)
+```
+## Start spy on & save the record
+$ 6.3. Deploying a minimal PCP setup (from redhat chaper 6)
+$ pmlogconf & pmlogger
+
+## tools to view archived data (from redhat chaper 6)
+$ pmdumptext, pmrep, or pmlogsummary
 
 ```
 
@@ -48,7 +57,7 @@ $ find ~/pcp-repo/ -name "pminfo"
 ```
 
 
-## (Visualizing iostat and sar Data)[https://pcp.io/docs/guide.html]
+## [Visualizing iostat and sar Data](https://pcp.io/docs/guide.html)
 ```
 $ iostat -t -x 2 > iostat.out
 $ iostat2pcp iostat.out iostat.pcp
