@@ -35,7 +35,7 @@ Substep:
 . There is no pcp-htop(1) man page. (  
 .  
 
-## Qoutes
+## Quotes
 ```
 
 
