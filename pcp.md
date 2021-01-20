@@ -111,7 +111,7 @@ $ pmchart -t 2sec -a iostat.pcp
 Postfix - 
 ```
 
-        
+---------------------------------------
 ### Your lovely (as a programmer) places
 ```
 /home/smalinux/pcp/src/pmdas
