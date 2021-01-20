@@ -117,13 +117,16 @@ Postfix -
 ```
 
 ---------------------------------------
-### Your lovely (as a programmer) places
+### Your lovely places (as a PCP programmer)
 ```
 /home/smalinux/pcp/src/pmdas
 A simple command line monitor tool is /usr/share/pcp/demos/pmclient (C language).
 
 1.3.4. Application and Agent Development >> pcp.readthedocs.io
+
 All Ch 8 >> pcp.readthedocs.io
+
+1.2.11. Product Extensibility >> pcp.readthedocs.io
 ```
 
 ### Best way to start & stop pmcd
