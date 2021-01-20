@@ -118,4 +118,12 @@ Postfix -
 A simple command line monitor tool is /usr/share/pcp/demos/pmclient (C language).
 ```
 
+### Best way to start & stop pmcd
+```
+/etc/rc.d/init.d/pmcd start
+/etc/rc.d/init.d/pmcd stop
+/etc/rc.d/init.d/pmcd status
+/etc/rc.d/init.d/pmcd restart
+```
+
 
