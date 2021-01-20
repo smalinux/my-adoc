@@ -1,6 +1,14 @@
 # Hi title
 
-
+## Checklist
+- [DONE] [Quick start] https://pcp.io/docs/guide.html  
+- [DONE] [Quick start] RedHat Ch 6  
+- [Later] Complete all https://pcp.io/docs/    
+-  
+-  
+-  
+-  
+-  
 
 ## The basic PCP commands are:
 pminfo
@@ -59,6 +67,15 @@ $ pminfo --fetch xfs.read_bytes
 ## 6.7.3. Resetting XFS performance metrics with pmstore
 $ back to RedHat ch 6
 
+```
+## [From PCP Quick Ref](https://pcp.io/docs/guide.html)
+```
+## Display detailed information about a performance metric and its current values:
+$ pminfo -dfmtT disk.partitions.read
+
+## PMID
+$ pminfo -t disk.partitions.read
+$ pminfo -T disk.partitions.read
 ```
 
 ```
