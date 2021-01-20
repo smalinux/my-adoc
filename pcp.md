@@ -125,5 +125,9 @@ A simple command line monitor tool is /usr/share/pcp/demos/pmclient (C language)
 /etc/rc.d/init.d/pmcd status
 /etc/rc.d/init.d/pmcd restart
 ```
-
+### Getting env variables
+for example `PCP_RC_DIR=`
+```
+cat src/include/pcp.conf | grep "PCP_RC_DIR="
+```
 
