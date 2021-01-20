@@ -41,6 +41,10 @@ $ pminfo | cut -d'.' -f1 | sort  | uniq -c
 ## To view the information about a metric you can use -f (-h to specify a host):
 $ pminfo -f disk.dev.total -h localhost
 ## To view details about a metric use the -T option with pminfo:
+$
+
+## Endtime
+$ pmval -T +4sec kernel.uname.distro  # after 4sec
 
 ## Monitor system metrics in a top-like window
 $ ./src/pcp/atop/pcp-atop
