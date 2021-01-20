@@ -79,8 +79,8 @@ $ back to RedHat ch 6
 $ pminfo -dfmtT disk.partitions.read
 
 ## PMID
-$ pminfo -t disk.partitions.read
-$ pminfo -T disk.partitions.read
+$ pminfo -m disk.partitions.read
+$ pminfo -M disk.partitions.read
 
 ## Monitoring Processes using process name (ex: seq)
 $ pmstore hotproc.control.config 'fname == "seq"'
