@@ -76,6 +76,14 @@ $ pminfo -dfmtT disk.partitions.read
 ## PMID
 $ pminfo -t disk.partitions.read
 $ pminfo -T disk.partitions.read
+
+## Monitoring Processes using process name (ex: seq)
+$ pmstore hotproc.control.config 'fname == "seq"'
+$ seq 0 1000000000000000000000000000000000
+$ pminfo -f hotproc | grep seq
+# back to: Monitoring “Hot” Processes with Hotproc >> pcp quick guide
+
+
 ```
 
 ```
@@ -103,17 +111,11 @@ $ pmchart -t 2sec -a iostat.pcp
 Postfix - 
 ```
 
-
+        
+### Your lovely (as a programmer) places
 ```
-Performance Metrics Domain Agents (PMDAs)
-a Performance Metrics Name Space (PMNS)
-````
-
-* pmwebd - not found  
-====================  
-https://www.redhat.com/en/blog/getting-started-using-performance-co-pilot-and-vector-browser-based-metric-visualizations
-
-### Links:
-RedHat ch 6 [Done]
+/home/smalinux/pcp/src/pmdas
+A simple command line monitor tool is /usr/share/pcp/demos/pmclient (C language).
+```
 
 
