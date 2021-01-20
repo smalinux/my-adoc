@@ -135,4 +135,7 @@ for example `PCP_RC_DIR=`
 ```
 cat src/include/pcp.conf | grep "PCP_RC_DIR="
 ```
-
+### list all PMDAs & lib.. )
+```
+man pmda<Tab><Tab>
+```
