@@ -45,6 +45,7 @@ $
 
 ## Endtime
 $ pmval -T +4sec kernel.uname.distro  # after 4sec
+$ pmval -s 4 kernel.uname.distro  # terminate after getting 4 samples
 
 ## Monitor system metrics in a top-like window
 $ ./src/pcp/atop/pcp-atop
