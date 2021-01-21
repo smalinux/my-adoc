@@ -127,6 +127,8 @@ A simple command line monitor tool is /usr/share/pcp/demos/pmclient (C language)
 All Ch 8 >> pcp.readthedocs.io
 
 1.2.11. Product Extensibility >> pcp.readthedocs.io
+
+pmapi(3) - libpcp - pmda(3)
 ```
 
 ### Best way to start & stop pmcd
