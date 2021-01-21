@@ -153,3 +153,10 @@ man pmda<Tab><Tab>
 1.1.3. Unification of Performance Metric Domains >> pcp.readthedocs.io
 
 ```
+
+### Config files
+use `cat src/include/pcp.conf | grep "PCP_PMCDCONF_PATH"`
+```
+/etc/pcp/pmcd/pmcd.conf
+/etc/pcp/pmcd/pmcd.options
+```
