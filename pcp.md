@@ -138,6 +138,13 @@ pmapi(3) - libpcp - pmda(3)
 /etc/rc.d/init.d/pmcd status
 /etc/rc.d/init.d/pmcd restart
 ```
+### Best way to manipulate PMDAs
+`${PCP_PMDAS_DIR}` == `cat src/include/pcp.conf | grep PCP_PMDAS_DIR`
+```
+/var/lib/pcp/pmdas/cisco ./Install
+/var/lib/pcp/pmdas/cisco ./Remove
+pcp
+```
 ### Getting env variables
 for example `PCP_RC_DIR=`
 ```
@@ -159,4 +166,8 @@ use `cat src/include/pcp.conf | grep "PCP_PMCDCONF_PATH"`
 ```
 /etc/pcp/pmcd/pmcd.conf
 /etc/pcp/pmcd/pmcd.options
+```
+Where is my `pcp.conf` ?! to reslove all env vars..
+```
+F "pcp.conf"
 ```
