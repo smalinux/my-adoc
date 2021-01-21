@@ -145,3 +145,9 @@ cat src/include/pcp.conf | grep "PCP_RC_DIR="
 ```
 man pmda<Tab><Tab>
 ```
+
+### Critical points
+```
+1.1.3. Unification of Performance Metric Domains >> pcp.readthedocs.io
+
+```
