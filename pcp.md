@@ -134,7 +134,9 @@ All Ch 8 >> pcp.readthedocs.io
 
 1.2.11. Product Extensibility >> pcp.readthedocs.io
 
-pmapi(3) - libpcp - pmda(3)
+pmapi(3) - for making new monitoring tools
+pmda(3) - for making new PMDAs
+libpcp - the core PCP library.
 ```
 
 ### Best way to start & stop pmcd
