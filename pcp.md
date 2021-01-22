@@ -1,5 +1,11 @@
 # Hi title
 
+Glossary
+```
+DSO (dynamic shared object)
+```
+
+
 ## Checklist
 - [DONE] [Quick start] https://pcp.io/docs/guide.html  
 - [DONE] [Quick start] RedHat Ch 6  
